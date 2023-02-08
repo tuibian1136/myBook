@@ -35,12 +35,6 @@ console.log(typeof []) // object
 console.log(typeof NaN); // number
 console.log(typeof funt); //function
 
-1. var m = 1;
-2. var n = 2;
-3.
-4. if (m !== 1)
-5. if (n === 2) console.log('hello');
-6. else console.log('world');
 
 
 
