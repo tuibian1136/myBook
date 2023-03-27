@@ -1,4 +1,5 @@
-// let parStr = 'Java javaScript Ja JAHAHjaeerewf'
+
+console.time()
 let parStr = '  wf'
 let keyWord = ' WF'
 function fn(parStr, keyWord, spanStart, spanEnd) {
@@ -33,3 +34,11 @@ function fn(parStr, keyWord, spanStart, spanEnd) {
   return arr2.join('')
 }
 fn(parStr, keyWord,'<div>','</div>')
+console.timeEnd()
+let obj={
+  a:'aaa',
+  b:'bbb'
+}
+console.log('obj:',obj);
+console.dir('obj:',obj);
+
